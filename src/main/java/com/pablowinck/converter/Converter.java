@@ -26,17 +26,11 @@ import java.util.stream.Collectors;
  * <b>CONVERSÕES</b><br>
  * <ul>
  * <li><b>toTxt</b></li>
- * grava .TXT
  * <li><b>fromTxt</b></li>
- * lê .TXT
  * <li><b>toDate</b></li>
- * transforma String em Date
  * <li><b>fromDate</b></li>
- * transforma Date em String
  * <li><b>toJson</b></li>
- * transforma object em json
  * <li><b>fromJson</b></li>
- * transforma json em object / list object
  * </ul>
  *
  * @author Pablo Winck Winter
@@ -225,27 +219,27 @@ public class Converter {
 
     /**
      * <b>FORMATOS:</b><br>
-     * 0 --> dd/MM/yyyy                <br>
-     * 1 --> yyyy-MM-dd                <br>
-     * 2 --> M/d/yyyy                  <br>
-     * 3 --> M/d/yy                    <br>
-     * 4 --> MM/dd/yy                  <br>
-     * 5 --> MM/dd/yyyy                <br>
-     * 6 --> yy/MM/dd                  <br>
-     * 7 --> dd-MMM-yy                 <br>
-     * 8 --> dd/MM/yyyy HH:mm          <br>
-     * 9 --> dd/MM/yyyy HH:mm:ss       <br>
-     * 10 -> hh:mm                     <br>
-     * 11 -> hh:mm:ss.s                <br>
-     * 12 -> mm:ss                     <br>
-     * 13 -> mm:ss.s                   <br>
-     * 14 -> dd hh:mm                  <br>
-     * 15 -> dd hh:mm:ss.s             <br>
-     * 16 -> dd-mmm-yyyy hh:mm         <br>
-     * 17 -> dd-mmm-yyyy hh:mm:ss.s    <br>
-     * 18 -> yyyy-mm-dd hh:mm          <br>
-     * 19 -> yyyy-mm-dd hh:mm:ss.s     <br>
-     * 20 -> yyyy-MM-dd'T'HH:mm:ss.SSS <br>
+     * 0 -- dd/MM/yyyy                <br>
+     * 1 -- yyyy-MM-dd                <br>
+     * 2 -- M/d/yyyy                  <br>
+     * 3 -- M/d/yy                    <br>
+     * 4 -- MM/dd/yy                  <br>
+     * 5 -- MM/dd/yyyy                <br>
+     * 6 -- yy/MM/dd                  <br>
+     * 7 -- dd-MMM-yy                 <br>
+     * 8 -- dd/MM/yyyy HH:mm          <br>
+     * 9 -- dd/MM/yyyy HH:mm:ss       <br>
+     * 10 - hh:mm                     <br>
+     * 11 - hh:mm:ss.s                <br>
+     * 12 - mm:ss                     <br>
+     * 13 - mm:ss.s                   <br>
+     * 14 - dd hh:mm                  <br>
+     * 15 - dd hh:mm:ss.s             <br>
+     * 16 - dd-mmm-yyyy hh:mm         <br>
+     * 17 - dd-mmm-yyyy hh:mm:ss.s    <br>
+     * 18 - yyyy-mm-dd hh:mm          <br>
+     * 19 - yyyy-mm-dd hh:mm:ss.s     <br>
+     * 20 - yyyy-MM-dd'T'HH:mm:ss.SSS <br>
      *
      * @param data Date a ser convertido
      * @param formato index do formato
